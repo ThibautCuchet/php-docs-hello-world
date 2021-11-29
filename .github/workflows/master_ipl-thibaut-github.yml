@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'ipl-tibou-web'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F317FD52E9144EC9A4D19E318AC6F7A8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5E47157B61EF49EE961F040883D28BC4 }}
           package: .
