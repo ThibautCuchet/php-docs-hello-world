@@ -54,7 +54,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'ipl-tibou-web'
+          app-name: 'ipl-thibaut-github'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5E47157B61EF49EE961F040883D28BC4 }}
           package: .
